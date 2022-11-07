@@ -10,7 +10,7 @@ class Main {
         System.out.print("numero 2: ");
         int numero2 = Integer.parseInt(teclado.nextLine());
 
-        System.out.println(Math.max(numero1, numero2));
+        System.out.println("este es el numero mayor: " +  Math.max(numero1, numero2));
     }
 }
 
